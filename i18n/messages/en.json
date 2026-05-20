@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "title": "SporeNet — The path to restoring ecosystems",
+    "description": "Restoring underground mycorrhizal networks in Kazakhstan's burned forests."
+  },
+  "nav": {
+    "problem": "Problem",
+    "solution": "Solution",
+    "stats": "Impact",
+    "network": "Network",
+    "roadmap": "Roadmap",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Eco-project · Turaqty Jol 7.0",
+    "title": "SporeNet",
+    "subtitle": "The path to restoring ecosystems",
+    "kazakh": "Экожүйені қалпына келтіретін жол",
+    "lead": "Wildfires don't only burn trees — they destroy the underground mycorrhizal network that lets a forest live as one organism. SporeNet brings that network back.",
+    "ctaPrimary": "Explore the project",
+    "ctaSecondary": "Meet the team"
+  },
+  "problem": {
+    "kicker": "The problem",
+    "title": "A forest is more than its trees",
+    "lead": "Beneath every healthy forest lies an invisible web of fungi — the mycorrhizal network — exchanging nutrients between trees, warning them of threats, and helping seedlings survive their first years. When wildfires sweep through Kazakhstan, this underground internet burns with the trees.",
+    "cards": [
+      {
+        "title": "Burned forests in Kazakhstan",
+        "text": "Over the last decade, wildfires have damaged hundreds of thousands of hectares across the country's northern and eastern forest belts."
+      },
+      {
+        "title": "The hidden casualty",
+        "text": "After fire, the mycorrhizal layer is destroyed in the top 10–15 cm of soil — exactly where new seedlings need it most."
+      },
+      {
+        "title": "Recovery without fungi",
+        "text": "Without mycorrhiza, new trees grow up to 3× slower and survive at much lower rates. Reforestation efforts fail silently."
+      }
+    ]
+  },
+  "solution": {
+    "kicker": "Our solution",
+    "title": "Reseeding the underground",
+    "lead": "SporeNet develops region-adapted mycorrhizal inoculants — living spore blends matched to the trees of Kazakhstan's forests. We work with local nurseries and reforestation teams to restore the network alongside the trees.",
+    "steps": [
+      {
+        "title": "1. Sample",
+        "text": "We collect native fungal strains from surviving forest patches and isolate species that pair with local pines, birches and firs."
+      },
+      {
+        "title": "2. Cultivate",
+        "text": "Strains are propagated on substrate in low-cost lab conditions, producing inoculant ready for field use."
+      },
+      {
+        "title": "3. Inoculate",
+        "text": "Seedlings are dipped or soil-treated before planting, so each young tree starts life already connected to the network."
+      },
+      {
+        "title": "4. Monitor",
+        "text": "We track survival, growth and soil health to prove that restored mycelia accelerate forest recovery."
+      }
+    ]
+  },
+  "stats": {
+    "kicker": "Why it matters",
+    "title": "The scale of the loss",
+    "items": [
+      { "value": 1700000, "suffix": " ha", "label": "Forests damaged by fires in Kazakhstan in recent years" },
+      { "value": 90, "suffix": "%", "label": "Of land plants depend on mycorrhizal symbiosis to thrive" },
+      { "value": 3, "suffix": "×", "label": "Faster growth for seedlings paired with the right fungi" },
+      { "value": 10000, "suffix": "+", "label": "Hectares we aim to reach in the project's first phase" }
+    ]
+  },
+  "network": {
+    "kicker": "How the network lives",
+    "title": "The wood wide web",
+    "lead": "Hover over a node to see how trees and fungi exchange resources underground. Carbon flows down. Water and minerals flow up. Warnings travel both ways."
+  },
+  "roadmap": {
+    "kicker": "Roadmap",
+    "title": "Where we are heading",
+    "phases": [
+      { "date": "2026 · Q1", "title": "Research & sampling", "text": "Field expeditions to surviving forests, fungal strain isolation." },
+      { "date": "2026 · Q2", "title": "Pilot lab", "text": "Low-cost cultivation of inoculants in a partner lab." },
+      { "date": "2026 · Q3", "title": "First field trial", "text": "100 ha pilot reforestation with mycorrhizal inoculation." },
+      { "date": "2027", "title": "Regional scale-up", "text": "Partnerships with akimats and nurseries across regions." }
+    ]
+  },
+  "team": {
+    "kicker": "The team",
+    "title": "Four roles, one network",
+    "lead": "We are a team of young eco-activists from Kazakhstan — built like a mycorrhizal network ourselves: each role nourishes the others.",
+    "members": [
+      { "name": "Aidyngali Alikhan", "role": "Project Lead", "bio": "Drives the concept, sets goals and coordinates the team across research, design and outreach." },
+      { "name": "Daniil Zhalgas", "role": "Digital Specialist", "bio": "Builds the digital side of SporeNet — tools, web, AI workflows for monitoring restored sites." },
+      { "name": "Aitugan Aruzhan", "role": "Designer", "bio": "Crafts the visual identity, the website and presentation materials that make the science readable." },
+      { "name": "Amirbek Fariza", "role": "Communications", "bio": "Leads outreach, partnerships and media — connects SporeNet with people who can grow it." }
+    ]
+  },
+  "contact": {
+    "kicker": "Get in touch",
+    "title": "Want to support, partner or join?",
+    "lead": "We are looking for mentors, scientists, nurseries and partners across Kazakhstan. Drop us a line.",
+    "form": {
+      "name": "Your name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thanks — we'll get back to you soon.",
+      "error": "Something went wrong. Try emailing us directly."
+    },
+    "directEmail": "Or write to us at"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtFor": "Built for Turaqty Jol 7.0 · UNESCO Clubs Federation of Kazakhstan"
+  },
+  "themeToggle": {
+    "light": "Switch to light mode",
+    "dark": "Switch to dark mode"
+  }
+}
