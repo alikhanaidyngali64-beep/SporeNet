@@ -6,7 +6,7 @@ import CountUp from 'react-countup';
 import { motion } from 'framer-motion';
 import SectionHeading from './SectionHeading';
 
-type Stat = { value: number; suffix: string; label: string };
+type Stat = { value: number; suffix: string; label: string; source?: string };
 
 export default function StatsSection() {
   const t = useTranslations('stats');
@@ -44,6 +44,11 @@ export default function StatsSection() {
                 )}
               </div>
               <p className="mt-4 text-sm leading-relaxed text-muted">{stat.label}</p>
+              {stat.source && (
+                <p className="mt-3 font-mono text-[10px] uppercase tracking-widest text-muted/70">
+                  {stat.source}
+                </p>
+              )}
             </motion.div>
           ))}
         </div>

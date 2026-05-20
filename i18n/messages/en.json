@@ -65,12 +65,32 @@
   },
   "stats": {
     "kicker": "Why it matters",
-    "title": "The scale of the loss",
+    "title": "The scale and the evidence",
     "items": [
-      { "value": 1700000, "suffix": " ha", "label": "Forests damaged by fires in Kazakhstan in recent years" },
-      { "value": 90, "suffix": "%", "label": "Of land plants depend on mycorrhizal symbiosis to thrive" },
-      { "value": 3, "suffix": "×", "label": "Faster growth for seedlings paired with the right fungi" },
-      { "value": 10000, "suffix": "+", "label": "Hectares we aim to reach in the project's first phase" }
+      {
+        "value": 116800,
+        "suffix": " ha",
+        "label": "Forests burned in Kazakhstan during 2023 — across 810 wildfires in one season.",
+        "source": "Inform.kz · Kazakhstan Minister of Ecology"
+      },
+      {
+        "value": 85,
+        "suffix": "%",
+        "label": "Survival rate for seedlings with mycorrhizal inoculation. Without it, control survival drops below 50%.",
+        "source": "USDA Forest Service"
+      },
+      {
+        "value": 100,
+        "suffix": "×",
+        "label": "Increase in root water-absorption area thanks to mycelial hyphae extending the reach of the root.",
+        "source": "Cheng et al. 2021 · Frontiers in Microbiology"
+      },
+      {
+        "value": 5,
+        "suffix": "%",
+        "label": "Of Kazakhstan's territory is forest — every preserved hectare counts.",
+        "source": "Astana Times 2025 · Inform.kz"
+      }
     ]
   },
   "network": {
@@ -80,12 +100,36 @@
   },
   "roadmap": {
     "kicker": "Roadmap",
-    "title": "Where we are heading",
+    "title": "The path to Turaqty Jol 7.0",
     "phases": [
-      { "date": "2026 · Q1", "title": "Research & sampling", "text": "Field expeditions to surviving forests, fungal strain isolation." },
-      { "date": "2026 · Q2", "title": "Pilot lab", "text": "Low-cost cultivation of inoculants in a partner lab." },
-      { "date": "2026 · Q3", "title": "First field trial", "text": "100 ha pilot reforestation with mycorrhizal inoculation." },
-      { "date": "2027", "title": "Regional scale-up", "text": "Partnerships with akimats and nurseries across regions." }
+      {
+        "date": "Phase 1",
+        "title": "Evidence base",
+        "text": "Gathering scientific sources: Kazakhstan wildfires, the strigolactone mechanism, AM fungi and biochar research.",
+        "status": "done",
+        "statusLabel": "Done"
+      },
+      {
+        "date": "Phase 2",
+        "title": "Capsule concept",
+        "text": "Designing the SporeNet capsule — spores plus biochar in a nutrient matrix that responds to the root's chemical signal.",
+        "status": "current",
+        "statusLabel": "In progress"
+      },
+      {
+        "date": "Phase 3",
+        "title": "Materials & pitch",
+        "text": "Website, pitch deck, video walk-through of the mechanism — everything needed to make the case clearly to the jury.",
+        "status": "next",
+        "statusLabel": "Up next"
+      },
+      {
+        "date": "Final",
+        "title": "Turaqty Jol 7.0",
+        "text": "Presenting to the UNESCO Clubs Federation of Kazakhstan — looking for mentors, partners and support to launch the pilot.",
+        "status": "goal",
+        "statusLabel": "Goal"
+      }
     ]
   },
   "team": {
@@ -102,17 +146,11 @@
   "contact": {
     "kicker": "Get in touch",
     "title": "Want to support, partner or join?",
-    "lead": "We are looking for mentors, scientists, nurseries and partners across Kazakhstan. Drop us a line.",
-    "form": {
-      "name": "Your name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Send message",
-      "sending": "Sending…",
-      "success": "Thanks — we'll get back to you soon.",
-      "error": "Something went wrong. Try emailing us directly."
-    },
-    "directEmail": "Or write to us at"
+    "lead": "We are looking for mentors, scientists, nurseries and partners across Kazakhstan. Reach out directly.",
+    "directEmail": "Get in touch",
+    "writeButton": "Write us",
+    "copy": "Copy",
+    "copied": "Copied"
   },
   "footer": {
     "rights": "All rights reserved.",
