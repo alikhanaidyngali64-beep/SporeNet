@@ -9,6 +9,7 @@ import RoadmapSection from '@/components/RoadmapSection';
 import TeamSection from '@/components/TeamSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 
 export default async function HomePage({
   params,
@@ -30,6 +31,7 @@ export default async function HomePage({
       <TeamSection />
       <ContactSection />
       <Footer />
+      <ScrollToTop />
     </main>
   );
 }

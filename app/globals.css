@@ -22,12 +22,23 @@
   --border: rgba(232, 228, 216, 0.12);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
 html, body {
   background: var(--bg);
   color: var(--fg);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
+/* Offset anchor jumps so headings clear the fixed header. */
+section[id] { scroll-margin-top: 80px; }
 
 * { border-color: var(--border); }
 
