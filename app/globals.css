@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Design tokens ──────────────────────────────────────────── */
 :root {
   --bg: #F7F3EC;
   --bg-elev: #FFFEFA;
@@ -10,6 +11,9 @@
   --accent: #5C6B3E;
   --accent-2: #C28F3C;
   --border: rgba(27, 27, 27, 0.12);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md: 0 4px 16px rgba(0,0,0,.08), 0 2px 6px rgba(0,0,0,.05);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,.10), 0 4px 12px rgba(0,0,0,.06);
 }
 
 .dark {
@@ -20,8 +24,12 @@
   --accent: #8FB55A;
   --accent-2: #D9A85F;
   --border: rgba(232, 228, 216, 0.12);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.25);
+  --shadow-md: 0 4px 16px rgba(0,0,0,.35), 0 2px 6px rgba(0,0,0,.2);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,.45), 0 4px 12px rgba(0,0,0,.25);
 }
 
+/* ─── Base ───────────────────────────────────────────────────── */
 html, body {
   background: var(--bg);
   color: var(--fg);
@@ -36,30 +44,70 @@ html, body {
   color: var(--bg);
 }
 
+/* ─── Utility aliases ────────────────────────────────────────── */
 .bg-surface { background: var(--bg); }
-.bg-elev { background: var(--bg-elev); }
-.text-fg { color: var(--fg); }
+.bg-elev    { background: var(--bg-elev); }
+.text-fg    { color: var(--fg); }
 .text-muted { color: var(--fg-muted); }
-.text-accent { color: var(--accent); }
+.text-accent  { color: var(--accent); }
 .text-accent2 { color: var(--accent-2); }
-.bg-accent { background: var(--accent); }
+.bg-accent  { background: var(--accent); }
 .bg-accent2 { background: var(--accent-2); }
 .border-line { border-color: var(--border); }
 
+/* ─── Buttons — Claude Design ────────────────────────────────── */
 .btn-primary {
   background: var(--accent);
   color: var(--bg);
-  transition: transform 200ms, background 200ms;
+  box-shadow: 0 1px 4px rgba(0,0,0,.15), inset 0 1px 0 rgba(255,255,255,.1);
+  transition: transform 200ms cubic-bezier(.34,1.56,.64,1), background 200ms, box-shadow 200ms;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
-.btn-primary:hover { transform: translateY(-2px); background: var(--accent-2); }
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: var(--accent-2);
+  box-shadow: 0 4px 14px rgba(0,0,0,.15), inset 0 1px 0 rgba(255,255,255,.12);
+}
+.btn-primary:active { transform: scale(0.97); }
 
 .btn-ghost {
   border: 1px solid var(--border);
   color: var(--fg);
-  transition: border-color 200ms, transform 200ms;
+  background: transparent;
+  transition: border-color 200ms, transform 200ms cubic-bezier(.34,1.56,.64,1), color 200ms;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
-.btn-ghost:hover { transform: translateY(-2px); border-color: var(--accent); }
+.btn-ghost:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.btn-ghost:active { transform: scale(0.97); }
 
+/* ─── Contact card email CTA ─────────────────────────────────── */
+.email-cta-btn {
+  background: var(--accent);
+  color: var(--bg);
+  box-shadow: 0 2px 8px rgba(0,0,0,.15), inset 0 1px 0 rgba(255,255,255,.1);
+  transition: transform 180ms cubic-bezier(.34,1.56,.64,1), background 180ms, box-shadow 180ms;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.email-cta-btn:hover {
+  background: var(--accent-2);
+  box-shadow: 0 6px 20px rgba(0,0,0,.15);
+  transform: translateY(-2px);
+}
+.email-cta-btn:active { transform: scale(0.97); }
+
+/* Contact card subtle inner glow */
+.contact-card {
+  box-shadow: var(--shadow-md), inset 0 0 0 1px rgba(255,255,255,.06);
+}
+
+/* ─── Grain overlay ──────────────────────────────────────────── */
 .grain-overlay {
   position: fixed;
   inset: 0;
@@ -71,9 +119,16 @@ html, body {
 }
 .dark .grain-overlay { opacity: 0.06; mix-blend-mode: screen; }
 
+/* ─── Animations ─────────────────────────────────────────────── */
 @keyframes pulse-node {
   0%, 100% { opacity: 0.55; r: 3; }
   50% { opacity: 1; r: 5; }
 }
-
 .node-pulse { animation: pulse-node 3s ease-in-out infinite; }
+
+/* ─── Focus rings (accessible, Claude-style) ─────────────────── */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

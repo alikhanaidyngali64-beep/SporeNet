@@ -137,10 +137,26 @@
     "title": "Four roles, one network",
     "lead": "We are a team of young eco-activists from Kazakhstan — built like a mycorrhizal network ourselves: each role nourishes the others.",
     "members": [
-      { "name": "Aidyngali Alikhan", "role": "Project Lead", "bio": "Drives the concept, sets goals and coordinates the team across research, design and outreach." },
-      { "name": "Daniil Zhalgas", "role": "Digital Specialist", "bio": "Builds the digital side of SporeNet — tools, web, AI workflows for monitoring restored sites." },
-      { "name": "Aitugan Aruzhan", "role": "Designer", "bio": "Crafts the visual identity, the website and presentation materials that make the science readable." },
-      { "name": "Amirbek Fariza", "role": "Communications", "bio": "Leads outreach, partnerships and media — connects SporeNet with people who can grow it." }
+      {
+        "name": "Aidyngali Alikhan",
+        "role": "Project Lead",
+        "bio": "Drives the concept, sets goals and coordinates the team across research, design and outreach."
+      },
+      {
+        "name": "Daniil Zhalgas",
+        "role": "Digital Specialist",
+        "bio": "Builds the digital side of SporeNet — tools, web, AI workflows for monitoring restored sites."
+      },
+      {
+        "name": "Aitugan Aruzhan",
+        "role": "Designer",
+        "bio": "Crafts the visual identity, the website and presentation materials that make the science readable."
+      },
+      {
+        "name": "Amirbek Fariza",
+        "role": "Communications",
+        "bio": "Leads outreach, partnerships and media — connects SporeNet with people who can grow it."
+      }
     ]
   },
   "contact": {
@@ -154,7 +170,8 @@
   },
   "footer": {
     "rights": "All rights reserved.",
-    "builtFor": "Built for Turaqty Jol 7.0 · UNESCO Clubs Federation of Kazakhstan"
+    "builtFor": "Built for Turaqty Jol 7.0 · UNESCO Clubs Federation of Kazakhstan",
+    "emailCta": "Want to connect? Drop us an email:"
   },
   "themeToggle": {
     "light": "Switch to light mode",
