@@ -10,7 +10,8 @@
     "network": "Network",
     "roadmap": "Roadmap",
     "team": "Team",
-    "contact": "Contact"
+    "contact": "Contact",
+    "docs": "Docs"
   },
   "hero": {
     "tagline": "Eco-project · Turaqty Jol 7.0",
@@ -176,5 +177,24 @@
   "themeToggle": {
     "light": "Switch to light mode",
     "dark": "Switch to dark mode"
+  },
+  "docs": {
+    "kicker": "Documentation",
+    "title": "Read the full materials",
+    "lead": "All SporeNet documentation is open. Read the project brief, scientific evidence behind every claim, and the business plan.",
+    "readBtn": "Read",
+    "downloadBtn": "Download",
+    "project": {
+      "title": "Project Documentation",
+      "desc": "Full overview of SporeNet: the capsule design, problem statement, proposed solution and technical approach."
+    },
+    "evidence": {
+      "title": "Scientific Evidence",
+      "desc": "Verified sources and citations for every claim we make — wildfires data, mycorrhizal research and strigolactone mechanism."
+    },
+    "business": {
+      "title": "Business Plan",
+      "desc": "Market analysis, competitors, cost structure, revenue model and go-to-market strategy for SporeNet."
+    }
   }
 }

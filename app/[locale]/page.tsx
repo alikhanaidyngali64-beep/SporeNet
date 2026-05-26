@@ -7,6 +7,7 @@ import StatsSection from '@/components/StatsSection';
 import NetworkSection from '@/components/NetworkSection';
 import RoadmapSection from '@/components/RoadmapSection';
 import TeamSection from '@/components/TeamSection';
+import DocsSection from '@/components/DocsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
@@ -28,6 +29,7 @@ export default async function HomePage({
       <NetworkSection />
       <RoadmapSection />
       <TeamSection />
+      <DocsSection />
       <ContactSection />
       <Footer />
     </main>

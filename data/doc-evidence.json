@@ -1,0 +1,378 @@
+[
+  {
+    "text": "SporeNet",
+    "bold": true
+  },
+  {
+    "text": "Ғылыми дәлелдер — слайд бойынша",
+    "bold": false
+  },
+  {
+    "text": "Әр сөзіміздің артында нақты зерттеу тұр. Плагиат жоқ.",
+    "bold": false
+  },
+  {
+    "text": "1. Мәселе — Қазақстан орманы",
+    "bold": true
+  },
+  {
+    "text": "❝  2023 жылы Қазақстанда 60 000 гектар орман өртенді",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Al Jazeera мен Қазақстан ТЖМ ресми мәлімдемесі бойынша расталды",
+    "bold": false
+  },
+  {
+    "text": "→ Al Jazeera: Kazakhstan forest fires, June 2023",
+    "bold": false
+  },
+  {
+    "text": "→ Wikipedia: 2023 Kazakhstan wildfires",
+    "bold": false
+  },
+  {
+    "text": "❝  2023 жылы 810 өрт, барлығы 116 800 га жер жанды",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Экология министрі Ниязбаев Мәжілісте ресми мәлімдеді",
+    "bold": false
+  },
+  {
+    "text": "→ inform.kz — Экология министрінің мәлімдемесі (2024)",
+    "bold": false
+  },
+  {
+    "text": "❝  Қазақстан орманы — аумақтың тек 5%",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Экология министрі: мемлекеттік орман қоры — 30,9 млн га, оның ішінде орман — 13,7 млн га",
+    "bold": false
+  },
+  {
+    "text": "→ inform.kz — орман аудандарының статистикасы",
+    "bold": false
+  },
+  {
+    "text": "→ The Astana Times: Reforestation in Kazakhstan, 2025",
+    "bold": false
+  },
+  {
+    "text": "2. Мицелийсіз жер — ағаш өледі",
+    "bold": true
+  },
+  {
+    "text": "❝  Мицелий жоқ жерде егілген ағаш суды да, қоректі де ала алмайды",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Өрт немесе кесуден кейін жердегі микориза желісі жойылады. Сол желісіз ағаш тек өз резервімен тіршілік етеді — бұл жеткіліксіз.",
+    "bold": false
+  },
+  {
+    "text": "→ Finlay R. (2008) — микориза желісі жойылса орман қалпына келмейді. Advances in Ecological Research 41:73-110",
+    "bold": false
+  },
+  {
+    "text": "→ Scientific Reports (2022) — микоризасыз орман учаскелерінде өсімдіктің тіршілік етуі күрт төмен",
+    "bold": false
+  },
+  {
+    "text": "❝  Өртенген жерде ағаш тіршілігі — 20-40% ғана",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Мицелий желісі жоқ, топырақ деградацияланған — тіршілік ете алмайды",
+    "bold": false
+  },
+  {
+    "text": "→ USDA Forest Service: mycorrhizal inoculation increases survival &gt;85% vs &lt;50% control",
+    "bold": false
+  },
+  {
+    "text": "→ ScienceDirect (2022): AMF ең үлкен пайда — сусыздық жағдайда (dryland)",
+    "bold": false
+  },
+  {
+    "text": "3. Стригалактондар — спора тамырды қалай табады",
+    "bold": true
+  },
+  {
+    "text": "Бұл — SporeNet-тің ең маңызды биологиялық механизмі. Сіздер айтасыздар: «Спора тамырды табады» — міне осының ғылыми дәлелі:",
+    "bold": true
+  },
+  {
+    "text": "❝  Тамыр стригалактон бөледі → спора сезеді → оған қарай өседі",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Стригалактондар — тамыр бөлетін химиялық заттар. Спора осыны сезіп, гифасын тамырға қарай бағыттайды. Бұл механизм зертханада толық дәлелденген.",
+    "bold": false
+  },
+  {
+    "text": "→ Akiyama et al. (2005) Nature — стригалактон спора тарамдалуын тудыратын фактор екені анықталды",
+    "bold": false
+  },
+  {
+    "text": "→ PLOS Biology (2006) — стригалактондар AM спорасының митохондриясын іске қосады → гифа өседі",
+    "bold": false
+  },
+  {
+    "text": "→ PMC (2006) — толық мақала: стригалактон механизмі",
+    "bold": false
+  },
+  {
+    "text": "❝  Спора тамырсыз 2 жылға дейін ұйқыда тіршілік ете алады",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Стригалактон жоқ болса спора жай «ұйықтайды» — запасын жұмсамайды. Бұл кепілдікті сақтауды мүмкін етеді.",
+    "bold": false
+  },
+  {
+    "text": "→ PLOS Biology (2006): &apos;a mechanism prevents AM spores from using carbon reserves until they encounter root exudates&apos;",
+    "bold": false
+  },
+  {
+    "text": "4. AM микориза тіршілікті +40–60% арттырады",
+    "bold": true
+  },
+  {
+    "text": "❝  AM саңырауқұлақтары сусыздық жағдайда өсімдік тіршілігін +40-60% арттырады",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Frontiers in Microbiology журналындағы жүйелі шолу — 80% жер өсімдіктерімен симбиоз жасайтын AM саңырауқұлақтары сусыздыққа төзімділікті айтарлықтай арттырады.",
+    "bold": false
+  },
+  {
+    "text": "→ Cheng et al. (2021) Frontiers in Microbiology — AM механизмдерінің толық талдауы. doi:10.3389/fmicb.2021.809473",
+    "bold": false
+  },
+  {
+    "text": "→ Cosme M. (2023) Nature Commun Biol — микориза стратегиясы мен сусыздыққа бейімделу. doi:10.1038/s42003-023-04722-4",
+    "bold": false
+  },
+  {
+    "text": "❝  Тамырдың су сіңіру ауданы 100-1000 есе өседі",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Гифалар тамырдан алыс жердегі суды да жеткізеді — диаметрі 2-5 мкм гифа топырақ бөлшектері арасына еніп су тасымалдайды.",
+    "bold": false
+  },
+  {
+    "text": "→ Cheng et al. 2021 — гифалар су тасымалдау механизмі: &apos;hyphal networks in surrounding soil reduce flow resistance&apos;",
+    "bold": false
+  },
+  {
+    "text": "→ Chang &amp; Lin (2025) Frontiers Plant Science — AMF симбиозы және сусыздық",
+    "bold": false
+  },
+  {
+    "text": "❝  Rhizophagus irregularis — Aral аймағы үшін тиімді AM түрі",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Бұл түр — ең кең таралған, зертханада жақсы зерттелген, аридті жағдайда тиімді AM саңырауқұлағы.",
+    "bold": false
+  },
+  {
+    "text": "→ Wu et al. (2017) Nature Scientific Reports — Rhizophagus irregularis сусыздық жағдайда. doi:10.1038/srep42389",
+    "bold": false
+  },
+  {
+    "text": "5. Биочар — ылғалды 10-30% ұстайды",
+    "bold": true
+  },
+  {
+    "text": "❝  Биочар топырақтың ылғал ұстау қабілетін 10-30% арттырады",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Frontiers in Environmental Science жүйелі шолуы: биочарды кез келген топыраққа қосқанда ылғал ұстау айтарлықтай артады. Сазды топырақта +30%, құмды топырақта +20%.",
+    "bold": false
+  },
+  {
+    "text": "→ Frontiers Env. Science (2023) — biochar WHC review: 10-30% increase. doi:10.3389/fenvs.2023.1324533",
+    "bold": false
+  },
+  {
+    "text": "→ Springer (2025) — Biochar dryland soils, semi-arid systems",
+    "bold": false
+  },
+  {
+    "text": "→ Springer (2025) — Rice husk biochar retains water 2.7x its weight",
+    "bold": false
+  },
+  {
+    "text": "6. DroneSeed пен Flash Forest-тен айырмашылығымыз",
+    "bold": true
+  },
+  {
+    "text": "❝  DroneSeed және Flash Forest — тек тұқым себеді, микориза жоқ",
+    "bold": true
+  },
+  {
+    "text": "Неге дұрыс: Екі компанияның да ресми сайтында и патенттерінде микориза компоненті жоқ. SporeNet-тің капсула ішіне тірі спора қосуы — бірінші инновация.",
+    "bold": false
+  },
+  {
+    "text": "→ DroneSeed — ресми сайт",
+    "bold": false
+  },
+  {
+    "text": "→ Flash Forest — ресми сайт",
+    "bold": false
+  },
+  {
+    "text": "→ Nature Communications (2025): mycorrhizal colonization of dryland tree establishment — зерттеу мицелийдің маңыздылығын дәлелдейді",
+    "bold": false
+  },
+  {
+    "text": "Жалпы кесте — слайд / факт / көз",
+    "bold": true
+  },
+  {
+    "text": "Слайд",
+    "bold": true
+  },
+  {
+    "text": "Факт",
+    "bold": true
+  },
+  {
+    "text": "Дереккөз",
+    "bold": true
+  },
+  {
+    "text": "Мәселе",
+    "bold": true
+  },
+  {
+    "text": "60 000 га өртенді (2023)",
+    "bold": false
+  },
+  {
+    "text": "Al Jazeera, Wikipedia, inform.kz",
+    "bold": false
+  },
+  {
+    "text": "Мәселе",
+    "bold": true
+  },
+  {
+    "text": "810 өрт, 116 800 га",
+    "bold": false
+  },
+  {
+    "text": "inform.kz — Министр мәлімдемесі",
+    "bold": false
+  },
+  {
+    "text": "Неліктен",
+    "bold": true
+  },
+  {
+    "text": "Мицелийсіз ағаш суды алмайды",
+    "bold": false
+  },
+  {
+    "text": "Finlay 2008, Sci.Reports 2022",
+    "bold": false
+  },
+  {
+    "text": "Неліктен",
+    "bold": true
+  },
+  {
+    "text": "Тіршілік 20-40% (мицелийсіз)",
+    "bold": false
+  },
+  {
+    "text": "USDA Forest Service, ScienceDirect 2022",
+    "bold": false
+  },
+  {
+    "text": "SporeNet",
+    "bold": true
+  },
+  {
+    "text": "Спора → стригалактон → тамыр",
+    "bold": false
+  },
+  {
+    "text": "Akiyama 2005 Nature, PLOS Bio 2006",
+    "bold": false
+  },
+  {
+    "text": "Капсула",
+    "bold": true
+  },
+  {
+    "text": "AM тіршілікті +40-60% арттырады",
+    "bold": false
+  },
+  {
+    "text": "Cheng 2021, Cosme 2023, Chang 2025",
+    "bold": false
+  },
+  {
+    "text": "Капсула",
+    "bold": true
+  },
+  {
+    "text": "Тамыр ауданы 100-1000 есе өседі",
+    "bold": false
+  },
+  {
+    "text": "Cheng 2021 Frontiers Microbiology",
+    "bold": false
+  },
+  {
+    "text": "Капсула",
+    "bold": true
+  },
+  {
+    "text": "Биочар ылғалды 10-30% ұстайды",
+    "bold": false
+  },
+  {
+    "text": "Frontiers Env.Sci 2023, Springer 2025",
+    "bold": false
+  },
+  {
+    "text": "Аналог",
+    "bold": true
+  },
+  {
+    "text": "DroneSeed/Flash Forest мицелиясыз",
+    "bold": false
+  },
+  {
+    "text": "droneseed.com, flashforest.ca",
+    "bold": false
+  },
+  {
+    "text": "11",
+    "bold": true
+  },
+  {
+    "text": "Бизнес",
+    "bold": true
+  },
+  {
+    "text": "350 000 тг/га пилот бағасы",
+    "bold": false
+  },
+  {
+    "text": "Astana Times 2025 — орман шаруашылығы",
+    "bold": false
+  },
+  {
+    "text": "Барлық дереккөз — ашық қолжетімді рецензияланған журналдар мен ресми БАҚ.",
+    "bold": true
+  }
+]

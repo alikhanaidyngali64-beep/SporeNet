@@ -22,6 +22,7 @@ export default function Header() {
     ['solution', t('solution')],
     ['stats', t('stats')],
     ['team', t('team')],
+    ['docs', t('docs')],
     ['contact', t('contact')],
   ] as const;
 
